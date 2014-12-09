@@ -20,8 +20,8 @@ describe "Editing todo lists" do
 	
 	it "updates a todo list successfully with correct information" do
 		update_todo_list todo_list: todo_list, 
-											title: "New title", 
-											description: "New description"
+		title: "New title", 
+		description: "New description"
 		
 		todo_list.reload
 		
